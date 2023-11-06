@@ -9,7 +9,7 @@ const container = document.querySelector('.container');
 container.append(todoDiv);
 
 // Define a function to fetch data from 'data.json'
-// Define a function to fetch data from 'data.json'
+
 async function fetchData() {
   const response = await fetch('data.json');
   timeTrackingData = (await response.json()).Todo;
